@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Documents - Multi-Document RAG Bot</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .file-input {
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .status {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .loading {
+            text-align: center;
+            margin: 20px 0;
+            display: none;
+        }
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #09f;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .supported-formats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .format-badge {
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        .stats-container {
+            text-align: center;
+        }
+        .stats-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        .file-list {
+            margin-top: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .file-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            border-bottom: 1px solid #eee;
+        }
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        .file-item .remove-file {
+            color: #e74c3c;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .upload-results {
+            margin-top: 15px;
+        }
+        .result-item {
+            margin-bottom: 10px;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .result-success {
+            background-color: rgba(212, 237, 218, 0.5);
+            border-left: 4px solid #28a745;
+        }
+        .result-error {
+            background-color: rgba(248, 215, 218, 0.5);
+            border-left: 4px solid #dc3545;
+        }
+        .result-pending {
+            background-color: rgba(255, 243, 205, 0.5);
+            border-left: 4px solid #ffc107;
+        }
+        .upload-summary {
+            margin-top: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Documents - Multi-Document RAG Bot</h1>
+    
+    <div class="container">
+        <div class="card">
+            <h2>Upload Documents</h2>
+            <div class="file-input">
+                <input type="file" id="document-files" multiple>
+            </div>
+            <div id="selected-files-list" class="file-list" style="display: none;">
+                <h3>Selected Files</h3>
+                <div id="files-container"></div>
+            </div>
+            <button id="upload-btn">Upload Documents</button>
+            <div id="upload-results" class="upload-results"></div>
+            <div id="upload-summary" class="upload-summary"></div>
+            
+            <h3>Supported Formats</h3>
+            <div class="supported-formats" id="supported-formats-list">
+                <!-- Formats will be loaded dynamically -->
+            </div>
+        </div>
+        
+        <div class="card stats-container">
+            <h2>Document Statistics</h2>
+            <button id="refresh-stats-btn">Refresh Stats</button>
+            <div id="stats-content">
+                <p>Click "Refresh Stats" to view document statistics.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load supported formats
+        async function loadSupportedFormats() {
+            try {
+                const response = await fetch('/supported_formats');
+                const formats = await response.json();
+                
+                const formatsList = document.getElementById('supported-formats-list');
+                formatsList.innerHTML = '';
+                
+                for (const [ext, desc] of Object.entries(formats)) {
+                    const badge = document.createElement('div');
+                    badge.className = 'format-badge';
+                    badge.textContent = `${ext.toUpperCase()} - ${desc}`;
+                    formatsList.appendChild(badge);
+                }
+            } catch (error) {
+                console.error('Error loading supported formats:', error);
+            }
+        }
+        
+        // Load supported formats on page load
+        document.addEventListener('DOMContentLoaded', loadSupportedFormats);
+        
+        // Display selected files
+        document.getElementById('document-files').addEventListener('change', function() {
+            const filesContainer = document.getElementById('files-container');
+            const filesList = document.getElementById('selected-files-list');
+            
+            if (this.files.length > 0) {
+                filesList.style.display = 'block';
+                filesContainer.innerHTML = '';
+                
+                Array.from(this.files).forEach((file, index) => {
+                    const fileItem = document.createElement('div');
+                    fileItem.className = 'file-item';
+                    fileItem.innerHTML = `
+                        <span>${file.name} (${(file.size / 1024).toFixed(2)} KB)</span>
+                        <span class="remove-file" data-index="${index}">✕</span>
+                    `;
+                    filesContainer.appendChild(fileItem);
+                });
+                
+                // We can't actually remove items from a FileList, so we'll need to clear and recreate on remove
+                document.querySelectorAll('.remove-file').forEach(button => {
+                    button.addEventListener('click', function() {
+                        const fileInput = document.getElementById('document-files');
+                        const dt = new DataTransfer();
+                        const files = fileInput.files;
+                        
+                        for (let i = 0; i < files.length; i++) {
+                            if (i !== parseInt(this.getAttribute('data-index'))) {
+                                dt.items.add(files[i]);
+                            }
+                        }
+                        
+                        fileInput.files = dt.files;
+                        
+                        // Trigger change event to update the list
+                        const event = new Event('change');
+                        fileInput.dispatchEvent(event);
+                    });
+                });
+            } else {
+                filesList.style.display = 'none';
+                filesContainer.innerHTML = '';
+            }
+        });
+        
+        // Upload a single file and return the result
+        async function uploadSingleFile(file) {
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                return {
+                    success: response.ok,
+                    fileName: file.name,
+                    fileType: result.file_type || 'unknown',
+                    chunks: result.chunks || 0,
+                    message: result.message || '',
+                    error: result.error || ''
+                };
+            } catch (error) {
+                return {
+                    success: false,
+                    fileName: file.name,
+                    error: error.message
+                };
+            }
+        }
+        
+        // Upload functionality
+        document.getElementById('upload-btn').addEventListener('click', async () => {
+            const fileInput = document.getElementById('document-files');
+            const resultsDiv = document.getElementById('upload-results');
+            const summaryDiv = document.getElementById('upload-summary');
+            
+            if (!fileInput.files.length) {
+                resultsDiv.innerHTML = '<div class="status error">Please select at least one file first.</div>';
+                return;
+            }
+
+            const files = Array.from(fileInput.files);
+            resultsDiv.innerHTML = '';
+            summaryDiv.innerHTML = '';
+            
+            // Disable the upload button during upload
+            const uploadBtn = document.getElementById('upload-btn');
+            uploadBtn.disabled = true;
+            uploadBtn.textContent = 'Uploading...';
+            
+            // Create result placeholders for each file
+            files.forEach((file, index) => {
+                const resultItem = document.createElement('div');
+                resultItem.id = `result-${index}`;
+                resultItem.className = 'result-item result-pending';
+                resultItem.innerHTML = `
+                    <strong>${file.name}</strong>: <span>Pending...</span>
+                `;
+                resultsDiv.appendChild(resultItem);
+            });
+            
+            let successCount = 0;
+            let totalChunks = 0;
+            
+            // Process each file one by one
+            for (let i = 0; i < files.length; i++) {
+                const resultElement = document.getElementById(`result-${i}`);
+                resultElement.innerHTML = `<strong>${files[i].name}</strong>: <span>Uploading...</span>`;
+                
+                // Upload the file and wait for the result
+                const result = await uploadSingleFile(files[i]);
+                
+                // Update the result display
+                if (result.success) {
+                    successCount++;
+                    totalChunks += result.chunks;
+                    resultElement.className = 'result-item result-success';
+                    resultElement.innerHTML = `
+                        <strong>${result.fileName}</strong>: 
+                        Success - Processed ${result.chunks} chunks (${result.fileType.toUpperCase()})
+                    `;
+                } else {
+                    resultElement.className = 'result-item result-error';
+                    resultElement.innerHTML = `
+                        <strong>${result.fileName}</strong>: 
+                        Error - ${result.error}
+                    `;
+                }
+            }
+            
+            // Show summary when all files are processed
+            const totalFiles = files.length;
+            const failedCount = totalFiles - successCount;
+            
+            summaryDiv.innerHTML = `
+                <div class="status ${successCount > 0 ? 'success' : 'error'}">
+                    Upload Complete: ${successCount}/${totalFiles} files successful, 
+                    ${failedCount} failed, ${totalChunks} total chunks processed.
+                </div>
+            `;
+            
+            // Re-enable the upload button
+            uploadBtn.disabled = false;
+            uploadBtn.textContent = 'Upload Documents';
+            
+            // Clear file input if all uploads were successful
+            if (successCount === totalFiles) {
+                fileInput.value = '';
+                document.getElementById('selected-files-list').style.display = 'none';
+                document.getElementById('files-container').innerHTML = '';
+            }
+        });
+
+        // Refresh stats
+        document.getElementById('refresh-stats-btn').addEventListener('click', async () => {
+            const statsContent = document.getElementById('stats-content');
+            statsContent.innerHTML = '<p>Loading statistics...</p>';
+
+            try {
+                const response = await fetch('/stats');
+                const result = await response.json();
+                
+                if (response.ok && result.graph) {
+                    statsContent.innerHTML = `
+                        <h3>Document Chunks by Source</h3>
+                        <img src="data:image/png;base64,${result.graph}" class="stats-image" alt="Document Statistics">
+                        
+                        <h3>Document Chunks by File Type</h3>
+                        <img src="data:image/png;base64,${result.file_type_graph}" class="stats-image" alt="File Type Statistics">
+                    `;
+                } else {
+                    statsContent.innerHTML = `<p>Error: ${result.error || 'No documents available'}</p>`;
+                }
+            } catch (error) {
+                statsContent.innerHTML = `<p>Error: ${error.message}</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
