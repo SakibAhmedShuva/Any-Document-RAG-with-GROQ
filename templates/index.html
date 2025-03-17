@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Document RAG Bot</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        /* Markdown styling for headers */
+        .markdown h2 {
+            text-align: left;
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+            margin-top: 20px;
+        }
+        /* Styling for Markdown bullet lists */
+        .markdown ul {
+            padding-left: 20px;
+        }
+        .markdown li {
+            margin-bottom: 10px;
+            position: relative;
+        }
+        /* Special handling for asterisk bullet points */
+        .markdown .bullet-item {
+            padding-left: 15px;
+            display: block;
+        }
+        .markdown .bullet-item::before {
+            content: "*";
+            position: absolute;
+            left: 0;
+            color: #333;
+        }
+        .main-container {
+            display: flex;
+            gap: 20px;
+        }
+        .content-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .sidebar {
+            width: 280px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 15px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        .sidebar h2 {
+            margin-top: 0;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .history-item {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .history-item:hover {
+            background-color: #f5f5f5;
+        }
+        .history-item p {
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 0.9em;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .file-input {
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        button.secondary {
+            background-color: #95a5a6;
+        }
+        button.secondary:hover {
+            background-color: #7f8c8d;
+        }
+        #query-input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            min-height: 100px; /* Increased height for multiple lines */
+            resize: vertical; /* Allow vertical resizing */
+        }
+        #response {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            min-height: 100px;
+            border-left: 4px solid #3498db;
+        }
+        #sources {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        .status {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .loading {
+            text-align: center;
+            margin: 20px 0;
+            display: none;
+        }
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #09f;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .rating {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .rating button {
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0 5px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .rating button:hover, .rating button.selected {
+            background-color: #ffc107;
+            color: white;
+        }
+        .conversation-controls {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+        .feedback-comment {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: none;
+        }
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .history-timestamp {
+            font-size: 0.8em;
+            color: #7f8c8d;
+            margin-top: 4px;
+        }
+        .no-history {
+            color: #7f8c8d;
+            text-align: center;
+            padding: 20px;
+            font-style: italic;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multi-Document RAG Bot with Groq API</h1>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="Green Energy Logo - Black.svg" alt="Green Energy Logo" style="max-width: 150px;">
+    </div>
+    
+    <div class="main-container">
+        <!-- Sidebar for history -->
+        <div class="sidebar">
+            <h2>History</h2>
+            <div id="history-container">
+                <div class="no-history">No history yet</div>
+            </div>
+        </div>
+        
+        <!-- Main content -->
+        <div class="content-container">
+            <div class="card">
+                <h2>Ask a Question</h2>
+                <textarea id="query-input" placeholder="Enter your questions about fire fighting items"></textarea>
+                <button id="query-btn">Ask</button>
+                <div class="conversation-controls">
+                    <button id="clear-history-btn" class="secondary">Clear History</button>
+                </div>
+            </div>
+            
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Processing...</p>
+            </div>
+            
+            <div class="card">
+                <h2>Answer</h2>
+                <div id="response" class="markdown">Ask a question to see the answer here.</div>
+                <div id="sources"></div>
+                <div class="rating" style="display: none;">
+                    <p>Rate this response:</p>
+                    <button class="rating-btn" data-rating="1">1</button>
+                    <button class="rating-btn" data-rating="2">2</button>
+                    <button class="rating-btn" data-rating="3">3</button>
+                    <button class="rating-btn" data-rating="4">4</button>
+                    <button class="rating-btn" data-rating="5">5</button>
+                </div>
+                <textarea class="feedback-comment" placeholder="Any additional comments? (optional)"></textarea>
+                <button id="submit-feedback" style="display: none; margin-top: 10px;">Submit Feedback</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        All rights reserved Green Energy 2025
+    </footer>
+
+    <script>
+        // Global variables
+        let currentQueryId = null;
+        let selectedRating = null;
+        let conversationHistory = [];
+        
+        // Query functionality
+        document.getElementById('query-btn').addEventListener('click', async () => {
+            const queryInput = document.getElementById('query-input');
+            const query = queryInput.value.trim();
+
+            if (!query) {
+                return;
+            }
+
+            const responseDiv = document.getElementById('response');
+            const sourcesDiv = document.getElementById('sources');
+            const loadingDiv = document.querySelector('.loading');
+
+            // Hide rating UI and reset
+            document.querySelector('.rating').style.display = 'none';
+            document.querySelector('.feedback-comment').style.display = 'none';
+            document.getElementById('submit-feedback').style.display = 'none';
+            selectedRating = null;
+            document.querySelectorAll('.rating-btn').forEach(btn => btn.classList.remove('selected'));
+
+            // Show loading
+            loadingDiv.style.display = 'block';
+            responseDiv.textContent = '';
+            sourcesDiv.textContent = '';
+
+            try {
+                const response = await fetch('/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ query })
+                });
+                
+                const result = await response.json();
+                
+                // Hide loading
+                loadingDiv.style.display = 'none';
+                
+                if (response.ok) {
+                    // Process response for Markdown and table rendering
+                    const formattedResponse = processResponse(result.answer);
+                    responseDiv.innerHTML = formattedResponse;
+                    
+                    // Show sources if available
+                    if (result.sources && result.sources.length > 0) {
+                        sourcesDiv.textContent = 'Sources: ' + [...new Set(result.sources)].join(', ');
+                    }
+                    
+                    // Store query ID for feedback
+                    currentQueryId = result.query_id;
+                    
+                    // Show rating UI
+                    document.querySelector('.rating').style.display = 'flex';
+                    document.getElementById('submit-feedback').style.display = 'block';
+                    
+                    // Add to history
+                    addToHistory(query, result.answer);
+                    
+                    // Clear the input field
+                    queryInput.value = '';
+                } else {
+                    responseDiv.textContent = `Error: ${result.error}`;
+                }
+            } catch (error) {
+                loadingDiv.style.display = 'none';
+                responseDiv.textContent = `Error: ${error.message}`;
+            }
+        });
+
+        // Function to add an item to history
+        function addToHistory(query, answer) {
+            const timestamp = new Date().toLocaleString();
+            const historyItem = {
+                id: Date.now(),
+                query,
+                answer,
+                timestamp
+            };
+            
+            // Add to memory
+            conversationHistory.push(historyItem);
+            
+            // Save to localStorage
+            localStorage.setItem('ragBotHistory', JSON.stringify(conversationHistory));
+            
+            // Update UI
+            updateHistoryUI();
+        }
+        
+        // Function to update history UI
+        function updateHistoryUI() {
+            const historyContainer = document.getElementById('history-container');
+            
+            if (conversationHistory.length === 0) {
+                historyContainer.innerHTML = '<div class="no-history">No history yet</div>';
+                return;
+            }
+            
+            // Clear current history
+            historyContainer.innerHTML = '';
+            
+            // Add each history item (newest first)
+            conversationHistory.slice().reverse().forEach(item => {
+                const historyItemDiv = document.createElement('div');
+                historyItemDiv.className = 'history-item';
+                historyItemDiv.dataset.id = item.id;
+                
+                const queryText = document.createElement('p');
+                queryText.textContent = item.query.length > 50 ? item.query.substring(0, 50) + '...' : item.query;
+                
+                const timestamp = document.createElement('div');
+                timestamp.className = 'history-timestamp';
+                timestamp.textContent = item.timestamp;
+                
+                historyItemDiv.appendChild(queryText);
+                historyItemDiv.appendChild(timestamp);
+                
+                // Add click event to restore the conversation
+                historyItemDiv.addEventListener('click', () => {
+                    document.getElementById('response').innerHTML = processResponse(item.answer);
+                    document.getElementById('query-input').value = item.query;
+                });
+                
+                historyContainer.appendChild(historyItemDiv);
+            });
+        }
+        
+        // Load history from localStorage on page load
+        function loadHistory() {
+            const savedHistory = localStorage.getItem('ragBotHistory');
+            if (savedHistory) {
+                try {
+                    conversationHistory = JSON.parse(savedHistory);
+                    updateHistoryUI();
+                } catch (error) {
+                    console.error('Error loading history:', error);
+                    conversationHistory = [];
+                }
+            }
+        }
+        
+        // Call load history on page load
+        document.addEventListener('DOMContentLoaded', loadHistory);
+
+        // Function to process response text for Markdown and tables
+        function processResponse(text) {
+            if (!text) return '';
+            
+            // Process Markdown headers (## style)
+            text = text.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+            
+            // Process bullet points (* style)
+            text = text.replace(/^\* (.+)$/gm, '<div class="bullet-item">$1</div>');
+            
+            const lines = text.split('\n');
+            let inTable = false;
+            let tableRows = [];
+            let result = [];
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                
+                // Skip lines we've already processed with regex replacements
+                if (line.includes('<h2>') || line.includes('<div class="bullet-item">')) {
+                    result.push(line);
+                    continue;
+                }
+                
+                // Check if line contains pipe characters (potential table)
+                if (line.includes('|') && line.trim().startsWith('|') && line.trim().endsWith('|')) {
+                    if (!inTable) {
+                        inTable = true;
+                        tableRows = [];
+                    }
+                    tableRows.push(line);
+                } else {
+                    if (inTable) {
+                        // Convert collected table rows to HTML table
+                        result.push(convertToHtmlTable(tableRows));
+                        inTable = false;
+                        tableRows = [];
+                    }
+                    result.push(line);
+                }
+            }
+            
+            // Handle case where table is at the end of the text
+            if (inTable) {
+                result.push(convertToHtmlTable(tableRows));
+            }
+            
+            return result.join('\n');
+        }
+
+        // Function to convert pipe-separated table to HTML table
+        function convertToHtmlTable(tableRows) {
+            let htmlTable = '<table>';
+            
+            // Process each row
+            tableRows.forEach((row, rowIndex) => {
+                const cells = row.split('|').filter(cell => cell.trim() !== '');
+                
+                // Skip separator rows (---)
+                if (cells.every(cell => /^[\s\-]+$/.test(cell))) {
+                    return;
+                }
+                
+                // Create header or normal row
+                const tag = rowIndex === 0 ? 'th' : 'td';
+                htmlTable += '<tr>';
+                cells.forEach(cell => {
+                    htmlTable += `<${tag}>${cell.trim()}</${tag}>`;
+                });
+                htmlTable += '</tr>';
+            });
+            
+            htmlTable += '</table>';
+            return htmlTable;
+        }
+
+        // Rating functionality
+        document.querySelectorAll('.rating-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove selected class from all buttons
+                document.querySelectorAll('.rating-btn').forEach(b => b.classList.remove('selected'));
+                
+                // Add selected class to clicked button
+                btn.classList.add('selected');
+                
+                // Store rating
+                selectedRating = parseInt(btn.getAttribute('data-rating'));
+                
+                // Show comment field if rating is low (1 or 2)
+                const commentField = document.querySelector('.feedback-comment');
+                commentField.style.display = selectedRating <= 2 ? 'block' : 'none';
+            });
+        });
+
+        // Submit feedback
+        document.getElementById('submit-feedback').addEventListener('click', async () => {
+            if (!selectedRating || !currentQueryId) {
+                return;
+            }
+
+            const comment = document.querySelector('.feedback-comment').value;
+
+            try {
+                const response = await fetch('/feedback', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        rating: selectedRating,
+                        query_id: currentQueryId,
+                        comment
+                    })
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    // Hide rating UI
+                    document.querySelector('.rating').style.display = 'none';
+                    document.querySelector('.feedback-comment').style.display = 'none';
+                    document.getElementById('submit-feedback').style.display = 'none';
+                    
+                    // Show thank you message
+                    const sourcesDiv = document.getElementById('sources');
+                    sourcesDiv.textContent += ' - Thank you for your feedback!';
+                }
+            } catch (error) {
+                console.error('Error submitting feedback:', error);
+            }
+        });
+
+        // Clear conversation history
+        document.getElementById('clear-history-btn').addEventListener('click', async () => {
+            try {
+                const response = await fetch('/clear_history', {
+                    method: 'POST'
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    const responseDiv = document.getElementById('response');
+                    responseDiv.textContent = 'Conversation history cleared. Ask a new question.';
+                    document.getElementById('sources').textContent = '';
+                    
+                    // Clear local history
+                    conversationHistory = [];
+                    localStorage.removeItem('ragBotHistory');
+                    updateHistoryUI();
+                }
+            } catch (error) {
+                console.error('Error clearing history:', error);
+            }
+        });
+
+        // Updated event listener for Enter key submission and Shift+Enter for new line
+        document.getElementById('query-input').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                // If Shift+Enter is pressed, allow new line
+                if (event.shiftKey) {
+                    return; // Default behavior (new line)
+                } else {
+                    // If just Enter is pressed, submit the form
+                    event.preventDefault(); // Prevent default behavior (new line)
+                    document.getElementById('query-btn').click(); // Submit the form
+                }
+            }
+        });
+        </script>
+        </body>
+        </html>
