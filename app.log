@@ -1,0 +1,1321 @@
+2025-03-14 22:42:01,539 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 22:42:05,208 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-14 22:42:05,249 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-14 22:42:05,652 - __main__ - INFO - Created new ChromaDB collection
+2025-03-14 22:42:05,689 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2025-03-14 22:42:05,691 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-14 22:42:05,693 - werkzeug - INFO -  * Restarting with stat
+2025-03-14 22:42:10,986 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 22:42:15,430 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-14 22:42:15,443 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-14 22:42:15,563 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-14 22:42:15,595 - werkzeug - WARNING -  * Debugger is active!
+2025-03-14 22:42:15,599 - werkzeug - INFO -  * Debugger PIN: 314-718-016
+2025-03-14 22:42:15,627 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 22:42:15] "GET / HTTP/1.1" 200 -
+2025-03-14 22:42:15,933 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 22:42:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-14 22:43:29,881 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 22:43:29] "POST /upload HTTP/1.1" 200 -
+2025-03-14 22:45:25,895 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 22:45:25] "GET /stats HTTP/1.1" 200 -
+2025-03-14 22:46:31,722 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 22:46:31,738 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 22:46:31] "POST /query HTTP/1.1" 200 -
+2025-03-14 22:47:25,964 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 22:47:25,964 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 22:47:25] "POST /query HTTP/1.1" 200 -
+2025-03-14 22:53:33,628 - werkzeug - INFO -  * Detected change in 'D:\\OneDrive - Green Energy\\Sakib\\Flutter\\RAG Seerah Bot\\app.py', reloading
+2025-03-14 22:56:51,909 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 22:56:55,080 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-14 22:56:55,080 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-14 22:56:55,276 - __main__ - INFO - Created new ChromaDB collection
+2025-03-14 22:56:55,313 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2025-03-14 22:56:55,314 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-14 22:56:55,316 - werkzeug - INFO -  * Restarting with stat
+2025-03-14 22:57:00,408 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 22:57:03,413 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-14 22:57:03,414 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-14 22:57:03,543 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-14 22:57:03,558 - werkzeug - WARNING -  * Debugger is active!
+2025-03-14 22:57:03,575 - werkzeug - INFO -  * Debugger PIN: 314-718-016
+2025-03-14 22:57:03,595 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 22:57:03] "GET / HTTP/1.1" 200 -
+2025-03-14 23:00:38,552 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 23:00:42,488 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-14 23:00:42,508 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-14 23:00:42,634 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-14 23:00:42,648 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2025-03-14 23:00:42,648 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-14 23:00:42,648 - werkzeug - INFO -  * Restarting with stat
+2025-03-14 23:00:47,705 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 23:00:50,651 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-14 23:00:50,652 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-14 23:00:50,801 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-14 23:00:50,817 - werkzeug - WARNING -  * Debugger is active!
+2025-03-14 23:00:50,820 - werkzeug - INFO -  * Debugger PIN: 314-718-016
+2025-03-14 23:01:07,656 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 23:01:07] "GET / HTTP/1.1" 200 -
+2025-03-14 23:01:07,722 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 23:01:07] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-14 23:02:11,091 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 23:02:11] "POST /upload HTTP/1.1" 200 -
+2025-03-14 23:02:21,736 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 23:02:21] "GET /stats HTTP/1.1" 200 -
+2025-03-14 23:04:14,281 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 23:04:17,736 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-14 23:04:17,757 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-14 23:04:17,869 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-14 23:04:17,909 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2025-03-14 23:04:17,910 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-14 23:04:17,911 - werkzeug - INFO -  * Restarting with stat
+2025-03-14 23:04:22,642 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-14 23:04:25,679 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-14 23:04:25,694 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-14 23:04:25,820 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-14 23:04:25,822 - werkzeug - WARNING -  * Debugger is active!
+2025-03-14 23:04:25,822 - werkzeug - INFO -  * Debugger PIN: 314-718-016
+2025-03-14 23:04:27,893 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 23:04:27,893 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 23:04:27] "POST /query HTTP/1.1" 200 -
+2025-03-14 23:04:40,956 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 23:04:40] "POST /feedback HTTP/1.1" 200 -
+2025-03-14 23:06:24,165 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 23:06:24,165 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2025 23:06:24] "POST /query HTTP/1.1" 200 -
+2025-03-16 15:22:06,187 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-16 15:22:25,200 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-16 15:22:25,248 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-16 15:22:37,323 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-16 15:22:37,354 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-16 15:22:37,354 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 15:22:37,370 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 15:22:48,472 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-16 15:22:51,884 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-16 15:22:51,899 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-16 15:22:52,087 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-16 15:22:52,118 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 15:22:52,118 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-16 15:23:02,682 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:23:02] "GET / HTTP/1.1" 200 -
+2025-03-16 15:23:03,010 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:23:03] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-16 15:23:03,041 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:23:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-16 15:23:27,775 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:23:27] "POST /upload HTTP/1.1" 200 -
+2025-03-16 15:23:49,519 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 15:23:49,534 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:23:49] "POST /query HTTP/1.1" 200 -
+2025-03-16 15:23:49,577 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 15:23:49,579 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:23:49] "POST /query HTTP/1.1" 200 -
+2025-03-16 15:24:07,476 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 15:24:07,481 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:24:07] "POST /query HTTP/1.1" 200 -
+2025-03-16 15:24:52,792 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 15:24:52,792 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:24:52] "POST /query HTTP/1.1" 200 -
+2025-03-17 07:54:40,845 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 07:54:40] "GET /stats HTTP/1.1" 200 -
+2025-03-17 07:59:53,053 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 07:59:57,903 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 07:59:57,923 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 07:59:58,133 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 07:59:58,173 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 07:59:58,173 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 07:59:58,177 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:00:09,729 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:00:15,065 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:00:15,096 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:00:15,330 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:00:15,377 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 08:00:15,377 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 08:02:00,308 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:02:05,416 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:02:05,431 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:02:05,712 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:02:05,759 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 08:02:05,759 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 08:02:05,759 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:02:21,324 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:02:26,890 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:02:26,947 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:02:27,524 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:02:27,559 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 08:02:27,559 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 08:02:27,626 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:02:27] "GET / HTTP/1.1" 200 -
+2025-03-17 08:02:27,626 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:02:27] "GET / HTTP/1.1" 200 -
+2025-03-17 08:02:29,063 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:02:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-17 08:08:56,175 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 08:08:57,486 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:09:10,903 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:09:14,541 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:09:14,564 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:09:14,782 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:09:14,812 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 08:09:14,812 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 08:09:14,815 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:09:36,155 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:09:40,584 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:09:40,607 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:09:40,894 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:09:40,938 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 08:09:40,948 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 08:09:41,019 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:09:41] "GET / HTTP/1.1" 200 -
+2025-03-17 08:09:53,072 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:09:53] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 08:09:53,539 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:09:53] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 08:10:00,490 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:10:00] "POST /upload HTTP/1.1" 200 -
+2025-03-17 08:10:07,645 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:10:07] "GET /stats HTTP/1.1" 200 -
+2025-03-17 08:11:05,860 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:11:05] "GET / HTTP/1.1" 200 -
+2025-03-17 08:11:24,663 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:11:29,147 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:11:29,172 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:11:29,370 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:11:29,417 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 08:11:29,418 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 08:11:29,424 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:11:39,747 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:11:44,500 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:11:44,518 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:11:44,690 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:11:44,708 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 08:11:44,711 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 08:11:44,738 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:11:44] "GET / HTTP/1.1" 200 -
+2025-03-17 08:11:44,739 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:11:44] "GET / HTTP/1.1" 200 -
+2025-03-17 08:11:50,290 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 08:11:50,294 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:11:50] "POST /query HTTP/1.1" 200 -
+2025-03-17 08:14:13,799 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 08:14:13,807 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:14:13] "POST /query HTTP/1.1" 200 -
+2025-03-17 08:15:58,423 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 08:15:58,425 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:15:58] "POST /query HTTP/1.1" 200 -
+2025-03-17 08:17:12,702 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 08:17:12,704 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:17:12] "POST /query HTTP/1.1" 200 -
+2025-03-17 08:19:37,258 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:19:45,437 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:19:45,461 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:19:45,693 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:19:45,730 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 08:19:45,730 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 08:19:45,733 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:19:57,957 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:20:03,192 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:20:03,209 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:20:03,384 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:20:03,400 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 08:20:03,400 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 08:20:03,431 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:20:03] "GET / HTTP/1.1" 200 -
+2025-03-17 08:20:33,234 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 08:20:33,239 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:20:33] "POST /query HTTP/1.1" 200 -
+2025-03-17 08:21:11,019 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:21:11] "POST /clear_history HTTP/1.1" 200 -
+2025-03-17 08:21:13,150 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:21:13] "POST /clear_history HTTP/1.1" 200 -
+2025-03-17 08:21:25,412 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:21:25] "GET /stats HTTP/1.1" 200 -
+2025-03-17 08:24:20,678 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:24:25,117 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:24:25,142 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:24:25,378 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:24:25,410 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 08:24:25,411 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 08:24:25,414 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:24:38,222 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:24:41,944 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:24:41,968 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:24:42,190 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:24:42,217 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 08:24:42,221 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 08:32:47,195 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 08:32:47,203 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:32:47] "POST /query HTTP/1.1" 200 -
+2025-03-17 08:45:37,224 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 08:45:37,227 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:45:37] "POST /query HTTP/1.1" 200 -
+2025-03-17 08:52:17,780 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:52:17] "GET /stats HTTP/1.1" 200 -
+2025-03-17 08:52:36,160 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:52:40,135 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:52:40,163 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:52:40,343 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:52:40,369 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 08:52:40,370 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 08:52:40,372 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:52:51,606 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:52:55,653 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:52:55,680 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:52:55,885 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:52:55,905 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 08:52:55,908 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 08:53:01,213 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:53:01] "GET /stats HTTP/1.1" 200 -
+2025-03-17 08:53:37,002 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:53:37] "POST /upload HTTP/1.1" 200 -
+2025-03-17 08:53:48,465 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:53:48] "GET /stats HTTP/1.1" 200 -
+2025-03-17 08:54:07,776 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:54:07] "[31m[1mPOST /upload HTTP/1.1[0m" 413 -
+2025-03-17 08:55:52,086 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 08:56:07,506 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:56:10,977 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:56:10,995 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:56:11,180 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:56:11,207 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 08:56:11,207 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 08:56:11,209 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:56:22,548 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:56:28,343 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:56:28,361 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:56:28,544 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:56:28,564 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 08:56:28,566 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 08:56:28,596 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:56:28] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 08:56:28,874 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:56:28] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 08:56:31,954 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:56:31] "GET /stats HTTP/1.1" 200 -
+2025-03-17 08:58:26,946 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:58:33,505 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:58:33,520 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:58:33,708 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:58:33,739 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 08:58:33,739 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 08:58:33,739 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 08:58:44,136 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:58:48,138 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:58:48,154 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:58:48,374 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:58:48,390 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 08:58:48,390 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 08:58:49,138 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:58:49] "GET /stats HTTP/1.1" 200 -
+2025-03-17 08:58:54,560 - __main__ - ERROR - Error processing upload: Unsupported file format: c:\users\sakib\appdata\local\temp\tmp0p5wzq7k
+Traceback (most recent call last):
+  File "F:\OneDrive - Green Energy\Sakib\GE\RAG Seerah Bot\app.py", line 461, in upload_file
+    text = process_document(temp_path)
+  File "F:\OneDrive - Green Energy\Sakib\GE\RAG Seerah Bot\app.py", line 145, in process_document
+    raise ValueError(f"Unsupported file format: {extension}")
+ValueError: Unsupported file format: c:\users\sakib\appdata\local\temp\tmp0p5wzq7k
+2025-03-17 08:58:54,577 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:58:54] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 08:59:08,009 - __main__ - ERROR - Error processing upload: Unsupported file format: c:\users\sakib\appdata\local\temp\tmps0rly9d8
+Traceback (most recent call last):
+  File "F:\OneDrive - Green Energy\Sakib\GE\RAG Seerah Bot\app.py", line 461, in upload_file
+    text = process_document(temp_path)
+  File "F:\OneDrive - Green Energy\Sakib\GE\RAG Seerah Bot\app.py", line 145, in process_document
+    raise ValueError(f"Unsupported file format: {extension}")
+ValueError: Unsupported file format: c:\users\sakib\appdata\local\temp\tmps0rly9d8
+2025-03-17 08:59:08,009 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:59:08] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 08:59:10,069 - __main__ - ERROR - Error processing upload: Unsupported file format: c:\users\sakib\appdata\local\temp\tmp5x7ozv6v
+Traceback (most recent call last):
+  File "F:\OneDrive - Green Energy\Sakib\GE\RAG Seerah Bot\app.py", line 461, in upload_file
+    text = process_document(temp_path)
+  File "F:\OneDrive - Green Energy\Sakib\GE\RAG Seerah Bot\app.py", line 145, in process_document
+    raise ValueError(f"Unsupported file format: {extension}")
+ValueError: Unsupported file format: c:\users\sakib\appdata\local\temp\tmp5x7ozv6v
+2025-03-17 08:59:10,070 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 08:59:10] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 08:59:25,207 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 08:59:46,220 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 08:59:51,174 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 08:59:51,195 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 08:59:51,425 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 08:59:51,466 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 08:59:51,467 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 08:59:51,469 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:00:05,634 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:00:10,491 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:00:10,513 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:00:10,733 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:00:10,765 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:00:10,769 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 09:00:26,880 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:00:26] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 09:00:27,229 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:00:27] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 09:02:05,659 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:02:05] "POST /upload HTTP/1.1" 200 -
+2025-03-17 09:03:46,130 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:03:46] "GET /stats HTTP/1.1" 200 -
+2025-03-17 09:17:58,832 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:18:02,789 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:18:02,808 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:18:02,999 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:18:03,026 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 09:18:03,027 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:18:03,029 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:18:13,887 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:18:17,337 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:18:17,356 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:18:17,546 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:18:17,566 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:18:17,569 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 09:18:17,597 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:18:17] "GET / HTTP/1.1" 200 -
+2025-03-17 09:18:33,385 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 09:18:33,389 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:18:33] "POST /query HTTP/1.1" 200 -
+2025-03-17 09:18:45,437 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 09:18:45,439 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:18:45] "POST /query HTTP/1.1" 200 -
+2025-03-17 09:19:16,478 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 09:19:16,480 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:19:16] "POST /query HTTP/1.1" 200 -
+2025-03-17 09:20:01,078 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 09:20:01,081 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:20:01] "POST /query HTTP/1.1" 200 -
+2025-03-17 09:21:27,020 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:21:27] "GET /stats HTTP/1.1" 200 -
+2025-03-17 09:21:58,151 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:22:03,316 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:22:03,341 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:22:16,449 - __main__ - INFO - Created new ChromaDB collection
+2025-03-17 09:22:16,483 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 09:22:16,483 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:22:16,486 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:22:29,572 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:22:33,660 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:22:33,679 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:22:33,890 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:22:33,914 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:22:33,916 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 09:22:33,951 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:22:33] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 09:22:34,295 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:22:34] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 09:22:36,173 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:22:36] "[33mGET /stats HTTP/1.1[0m" 404 -
+2025-03-17 09:22:37,334 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:22:37] "[33mGET /stats HTTP/1.1[0m" 404 -
+2025-03-17 09:22:38,032 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:22:38] "[33mGET /stats HTTP/1.1[0m" 404 -
+2025-03-17 09:22:38,247 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:22:38] "[33mGET /stats HTTP/1.1[0m" 404 -
+2025-03-17 09:42:17,912 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:42:17] "POST /upload HTTP/1.1" 200 -
+2025-03-17 09:42:22,233 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:42:22] "GET /stats HTTP/1.1" 200 -
+2025-03-17 09:42:33,452 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:42:33] "GET / HTTP/1.1" 200 -
+2025-03-17 09:42:47,457 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 09:42:47,465 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:42:47] "POST /query HTTP/1.1" 200 -
+2025-03-17 09:44:16,178 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:44:21,393 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:44:21,422 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:44:21,782 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:44:21,828 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 09:44:21,828 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:44:21,833 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:44:36,837 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:44:41,052 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:44:41,076 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:44:41,373 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:44:41,470 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:44:41,474 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 09:44:41,522 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:44:41] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 09:44:41,648 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:44:41] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 09:44:45,785 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:44:45] "GET /stats HTTP/1.1" 200 -
+2025-03-17 09:45:54,616 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:45:59,019 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:45:59,043 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:45:59,420 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:45:59,453 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 09:45:59,453 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:45:59,456 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:46:13,534 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:46:17,765 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:46:17,789 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:46:18,012 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:46:18,039 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:46:18,042 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 09:48:44,026 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:48:44] "GET / HTTP/1.1" 200 -
+2025-03-17 09:48:47,919 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:48:47] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 09:48:48,209 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:48:48] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 09:48:50,491 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:48:50] "GET /stats HTTP/1.1" 200 -
+2025-03-17 09:49:44,804 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:49:50,492 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:49:50,509 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:49:50,790 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:49:50,822 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 09:49:50,822 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:49:50,837 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:50:07,141 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:50:11,457 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:50:11,503 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:50:11,857 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:50:11,893 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:50:11,898 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 09:51:28,398 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:28] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 09:51:28,771 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:28] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 09:51:35,780 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:35] "POST /upload HTTP/1.1" 200 -
+2025-03-17 09:51:41,575 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:51:41] "GET /stats HTTP/1.1" 200 -
+2025-03-17 09:52:04,826 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 09:52:04,826 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 09:52:04] "POST /query HTTP/1.1" 200 -
+2025-03-17 09:56:14,344 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 09:56:40,576 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:56:46,262 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:56:46,293 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:56:46,670 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:56:46,716 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 09:56:46,716 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:56:46,732 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:57:04,236 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:57:09,550 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:57:09,565 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:57:09,826 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:57:09,852 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 09:57:09,855 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 09:59:40,851 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 09:59:45,984 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 09:59:46,015 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 09:59:46,218 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 09:59:46,249 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 09:59:46,249 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 09:59:46,249 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 09:59:59,096 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 10:00:05,211 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 10:00:05,230 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 10:00:05,535 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 10:00:05,563 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 10:00:05,563 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 10:00:05,612 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:00:05] "GET / HTTP/1.1" 200 -
+2025-03-17 10:01:24,271 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:01:24] "GET / HTTP/1.1" 200 -
+2025-03-17 10:02:12,264 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:02:12,283 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:02:12] "POST /query HTTP/1.1" 200 -
+2025-03-17 10:02:43,926 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:02:43,926 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:02:43] "POST /query HTTP/1.1" 200 -
+2025-03-17 10:03:26,886 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:03:26,903 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:03:26] "POST /query HTTP/1.1" 200 -
+2025-03-17 10:19:45,235 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:19:45] "POST /feedback HTTP/1.1" 200 -
+2025-03-17 10:20:35,090 - werkzeug - INFO - 192.168.10.206 - - [17/Mar/2025 10:20:35] "GET / HTTP/1.1" 200 -
+2025-03-17 10:20:35,317 - werkzeug - INFO - 192.168.10.206 - - [17/Mar/2025 10:20:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-17 10:22:48,681 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:22:48] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 10:22:49,136 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:22:49] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 10:23:15,964 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:23:15] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 10:23:16,415 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:23:16] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 10:27:42,527 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:27:42] "[31m[1mPOST /upload HTTP/1.1[0m" 413 -
+2025-03-17 10:28:07,878 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 10:28:14,441 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 10:28:27,486 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 10:28:31,388 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 10:28:31,423 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 10:28:31,711 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 10:28:31,744 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 10:28:31,749 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 10:28:43,168 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:28:43] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 10:28:57,586 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:28:57] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 10:29:12,917 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:29:12] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 10:44:21,616 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:44:21] "POST /upload HTTP/1.1" 200 -
+2025-03-17 10:49:07,196 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:49:07] "GET /stats HTTP/1.1" 200 -
+2025-03-17 10:50:02,874 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:50:02] "GET / HTTP/1.1" 200 -
+2025-03-17 10:50:06,061 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:50:06] "POST /clear_history HTTP/1.1" 200 -
+2025-03-17 10:50:17,888 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:50:17,894 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:50:17] "POST /query HTTP/1.1" 200 -
+2025-03-17 10:50:53,161 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:50:53,163 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:50:53] "POST /query HTTP/1.1" 200 -
+2025-03-17 10:51:20,974 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:51:20,977 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:51:20] "POST /query HTTP/1.1" 200 -
+2025-03-17 10:51:39,753 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:51:39,755 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:51:39] "POST /query HTTP/1.1" 200 -
+2025-03-17 10:52:40,809 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:52:40,811 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:52:40] "POST /query HTTP/1.1" 200 -
+2025-03-17 10:54:57,058 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 10:55:03,701 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 10:55:03,743 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 10:55:21,898 - __main__ - INFO - Created new ChromaDB collection
+2025-03-17 10:55:21,944 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 10:55:21,945 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 10:55:21,949 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 10:55:40,162 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 10:55:45,152 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 10:55:45,187 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 10:55:45,593 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 10:55:45,657 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 10:55:45,661 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 10:55:45,721 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:55:45] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 10:55:46,206 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:55:46] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 10:56:32,694 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:56:32] "GET / HTTP/1.1" 200 -
+2025-03-17 10:58:26,096 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:58:26] "POST /clear_history HTTP/1.1" 200 -
+2025-03-17 10:58:27,750 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:58:27] "GET / HTTP/1.1" 200 -
+2025-03-17 10:58:42,081 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:58:42] "POST /upload HTTP/1.1" 200 -
+2025-03-17 10:59:21,381 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:59:21,390 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:59:21] "POST /query HTTP/1.1" 200 -
+2025-03-17 10:59:29,046 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 10:59:29,048 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 10:59:29] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:00:11,567 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:00:11,569 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:00:11] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:00:43,188 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:00:43] "POST /clear_history HTTP/1.1" 200 -
+2025-03-17 11:02:03,552 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:02:03,555 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:02:03] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:04:26,787 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:04:26,797 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:04:26] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:04:39,318 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:04:39,322 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:04:39] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:06:37,624 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:06:37,626 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:06:37] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:06:46,487 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:06:46] "GET / HTTP/1.1" 200 -
+2025-03-17 11:06:51,056 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:06:51] "POST /clear_history HTTP/1.1" 200 -
+2025-03-17 11:07:01,566 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:07:01,568 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:07:01] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:07:17,211 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:07:17,214 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:07:17] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:07:32,789 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:07:32,791 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:07:32] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:07:54,959 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:07:54] "GET / HTTP/1.1" 200 -
+2025-03-17 11:08:02,014 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:08:02] "POST /clear_history HTTP/1.1" 200 -
+2025-03-17 11:08:30,295 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:08:30,297 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:08:30] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:12:43,973 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:12:47,064 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:13:00,380 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:13:04,705 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:13:04,720 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:13:04,955 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:13:04,970 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:13:04,986 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:13:28,632 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:13:30,349 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:13:57,307 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:14:06,447 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:14:06,487 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:14:06,775 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:14:06,868 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 11:14:06,868 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 11:14:06,868 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:14:24,225 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:14:29,807 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:14:29,839 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:14:30,199 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:14:30,246 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:14:30,251 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:14:30,310 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:14:30] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 11:14:30,324 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:14:30] "GET / HTTP/1.1" 200 -
+2025-03-17 11:14:30,777 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:14:30] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 11:14:33,089 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:14:33] "GET /stats HTTP/1.1" 200 -
+2025-03-17 11:14:38,365 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:14:38,372 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:14:38] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:18:44,457 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:18:45,964 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:19:00,367 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:19:05,102 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:19:05,124 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:19:05,401 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:19:05,432 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:19:05,448 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:19:37,331 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:19:38,908 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:19:52,153 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:19:56,522 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:19:56,549 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:19:56,850 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:19:56,891 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:19:56,898 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:20:17,401 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:20:17] "GET / HTTP/1.1" 200 -
+2025-03-17 11:20:19,114 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:20:19] "GET / HTTP/1.1" 200 -
+2025-03-17 11:20:21,811 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:20:21,818 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:20:21] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:20:56,542 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:20:56] "GET / HTTP/1.1" 200 -
+2025-03-17 11:21:03,954 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:21:03] "POST /clear_history HTTP/1.1" 200 -
+2025-03-17 11:21:40,133 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:21:40,135 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:21:40] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:22:31,574 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:22:31,576 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:22:31] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:23:42,304 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:23:42,306 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:23:42] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:24:07,708 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:24:07,710 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:24:07] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:24:26,107 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 11:24:26,108 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 28.000000 seconds
+2025-03-17 11:24:55,504 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:24:55,506 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:24:55] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:26:23,543 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:26:23,546 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:26:23] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:26:41,105 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-17 11:26:41,107 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 25.000000 seconds
+2025-03-17 11:27:07,746 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:27:07,748 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:27:07] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:27:24,505 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Request Entity Too Large"
+2025-03-17 11:27:24,506 - __main__ - ERROR - Error generating response with Groq: Error code: 413 - {'error': {'message': 'Request too large for model `mixtral-8x7b-32768` in organization `org_01j8mjb56bfz19p1eg8qtc0je8` service tier `on_demand` on tokens per minute (TPM): Limit 5000, Requested 5290, please reduce your message size and try again. Visit https://console.groq.com/docs/rate-limits for more information.', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-03-17 11:27:24,507 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:27:24] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:28:01,556 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Request Entity Too Large"
+2025-03-17 11:28:01,557 - __main__ - ERROR - Error generating response with Groq: Error code: 413 - {'error': {'message': 'Request too large for model `mixtral-8x7b-32768` in organization `org_01j8mjb56bfz19p1eg8qtc0je8` service tier `on_demand` on tokens per minute (TPM): Limit 5000, Requested 5290, please reduce your message size and try again. Visit https://console.groq.com/docs/rate-limits for more information.', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-03-17 11:28:01,557 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:28:01] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:28:56,726 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Request Entity Too Large"
+2025-03-17 11:28:56,727 - __main__ - ERROR - Error generating response with Groq: Error code: 413 - {'error': {'message': 'Request too large for model `mixtral-8x7b-32768` in organization `org_01j8mjb56bfz19p1eg8qtc0je8` service tier `on_demand` on tokens per minute (TPM): Limit 5000, Requested 5290, please reduce your message size and try again. Visit https://console.groq.com/docs/rate-limits for more information.', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-03-17 11:28:56,728 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:28:56] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:29:43,022 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:29:44,581 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:29:57,367 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:30:01,653 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:30:01,678 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:30:01,955 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:30:01,977 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:30:01,980 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:30:02,014 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:30:02] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 11:30:02,324 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:30:02] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 11:30:19,153 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:30:19,159 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:30:19] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:30:33,217 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:30:33,219 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:30:33] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:30:56,089 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:30:56,091 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:30:56] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:31:22,471 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:31:22,475 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:31:22] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:31:57,870 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:31:59,429 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:32:13,075 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:32:17,366 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:32:17,392 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:32:17,611 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:32:17,636 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:32:17,639 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:32:17,674 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:32:17] "GET / HTTP/1.1" 200 -
+2025-03-17 11:32:22,129 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:32:22,136 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:32:22] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:33:07,183 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:33:07,185 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:33:07] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:33:44,258 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:33:44,261 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:33:44] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:33:56,590 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:33:56,592 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:33:56] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:34:07,524 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:34:07,526 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:34:07] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:38:50,231 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:38:52,119 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:39:05,527 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:39:10,933 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:39:10,964 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:39:11,183 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:39:11,198 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:39:11,198 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:39:11,245 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:39:11] "GET / HTTP/1.1" 200 -
+2025-03-17 11:42:39,157 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:42:49,680 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:42:49,711 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:42:50,000 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:42:50,031 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 11:42:50,031 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 11:42:50,031 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:43:03,781 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:43:07,495 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:43:07,514 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:43:07,720 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:43:07,751 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:43:07,751 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:43:07,783 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:43:07] "GET / HTTP/1.1" 200 -
+2025-03-17 11:43:17,346 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:43:17,368 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:43:17] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:43:23,745 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:43:23,745 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:43:23] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:44:40,352 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:44:41,585 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:44:53,703 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:44:58,031 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:44:58,046 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:44:58,265 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:44:58,299 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:44:58,301 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:45:11,007 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:45:11] "GET / HTTP/1.1" 200 -
+2025-03-17 11:45:12,505 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:45:12] "GET / HTTP/1.1" 200 -
+2025-03-17 11:45:19,664 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:45:19,680 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:45:19] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:46:08,006 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:46:08,006 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:46:08] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:46:25,629 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:46:25,631 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:46:25] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:46:41,663 - werkzeug - INFO - 192.168.10.227 - - [17/Mar/2025 11:46:41] "GET / HTTP/1.1" 200 -
+2025-03-17 11:46:42,136 - werkzeug - INFO - 192.168.10.227 - - [17/Mar/2025 11:46:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-17 11:46:59,513 - werkzeug - INFO - 192.168.10.213 - - [17/Mar/2025 11:46:59] "GET / HTTP/1.1" 200 -
+2025-03-17 11:47:00,500 - werkzeug - INFO - 192.168.10.213 - - [17/Mar/2025 11:47:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-17 11:47:02,583 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:47:02,583 - werkzeug - INFO - 192.168.10.227 - - [17/Mar/2025 11:47:02] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:47:22,461 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:47:22,461 - werkzeug - INFO - 192.168.10.213 - - [17/Mar/2025 11:47:22] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:47:42,738 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:47:42,754 - werkzeug - INFO - 192.168.10.213 - - [17/Mar/2025 11:47:42] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:47:49,982 - werkzeug - INFO - 192.168.10.206 - - [17/Mar/2025 11:47:49] "GET / HTTP/1.1" 200 -
+2025-03-17 11:47:52,193 - werkzeug - INFO - 192.168.10.206 - - [17/Mar/2025 11:47:52] "GET / HTTP/1.1" 200 -
+2025-03-17 11:48:12,977 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:48:12,992 - werkzeug - INFO - 192.168.10.213 - - [17/Mar/2025 11:48:12] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:48:18,339 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:48:18,339 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:48:18] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:48:25,388 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:48:25,388 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:48:25] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:49:04,320 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:49:04,320 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:49:04] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:49:15,562 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:49:15,562 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:49:15] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:49:23,714 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:49:23,714 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:49:23] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:50:00,288 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:50:01,685 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:50:23,977 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:50:28,163 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:50:28,195 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:50:28,417 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:50:28,463 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 11:50:28,463 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 11:50:28,474 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:50:41,404 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:50:45,137 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:50:45,170 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:50:45,370 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:50:45,403 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:50:45,403 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:50:46,603 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:50:46,603 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:50:46] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:50:50,703 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:50:50,703 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:50:50] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:51:24,644 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:51:26,095 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:51:43,303 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:51:47,949 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:51:47,980 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:51:48,370 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:51:48,402 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:51:48,417 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:51:59,943 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:51:59,960 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:51:59] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:52:46,604 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:52:46,604 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:52:46] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:53:40,754 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:53:40,754 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:53:40] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:53:49,779 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:53:49,795 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:53:49] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:54:02,161 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:54:02,161 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:54:02] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:54:17,959 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:54:17,959 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:54:17] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:54:26,557 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:54:26,562 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:54:26] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:54:35,406 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:54:35,423 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:54:35] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:54:44,898 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:54:44,898 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:54:44] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:56:55,017 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:56:56,364 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:57:10,612 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:57:15,111 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:57:15,126 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:57:15,364 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:57:15,391 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:57:15,395 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 11:57:15,436 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:57:15] "GET / HTTP/1.1" 200 -
+2025-03-17 11:57:19,035 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 11:57:19,035 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 11:57:19] "POST /query HTTP/1.1" 200 -
+2025-03-17 11:58:18,026 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 11:58:19,316 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 11:58:34,318 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 11:58:43,340 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 11:58:43,375 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 11:58:43,890 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 11:58:43,934 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 11:58:43,940 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 12:00:05,496 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:00:05,513 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:00:05] "POST /query HTTP/1.1" 200 -
+2025-03-17 12:01:07,084 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 12:01:08,698 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 12:01:23,952 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 12:01:28,735 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 12:01:28,768 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 12:01:29,068 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 12:01:29,117 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 12:01:29,119 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 12:01:30,885 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:01:30,902 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:01:30] "POST /query HTTP/1.1" 200 -
+2025-03-17 12:02:12,351 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 12:02:13,846 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 12:02:30,436 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 12:02:39,797 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 12:02:39,821 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 12:02:40,095 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 12:02:40,126 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 12:02:40,142 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 12:02:41,159 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:02:41,178 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:02:41] "POST /query HTTP/1.1" 200 -
+2025-03-17 12:03:35,402 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:03:35,402 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:03:35] "POST /query HTTP/1.1" 200 -
+2025-03-17 12:05:45,568 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 12:05:46,925 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 12:06:00,316 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 12:06:04,516 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 12:06:04,549 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 12:06:04,765 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 12:06:04,798 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 12:06:04,799 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 12:06:06,216 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:06:06,232 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:06:06] "POST /query HTTP/1.1" 200 -
+2025-03-17 12:06:26,496 - werkzeug - INFO -  * Detected change in 'F:\\OneDrive - Green Energy\\Sakib\\GE\\RAG Seerah Bot\\app.py', reloading
+2025-03-17 12:06:28,199 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 12:06:44,279 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 12:06:48,682 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 12:06:48,697 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 12:06:48,966 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 12:06:48,996 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 12:06:48,996 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 12:06:50,118 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:06:50,118 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:06:50] "POST /query HTTP/1.1" 200 -
+2025-03-17 12:07:01,278 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:07:01,281 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:07:01] "POST /query HTTP/1.1" 200 -
+2025-03-17 12:42:43,140 - werkzeug - INFO - 192.168.10.206 - - [17/Mar/2025 12:42:43] "GET / HTTP/1.1" 200 -
+2025-03-17 12:42:58,029 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:42:58,029 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:42:58] "POST /query HTTP/1.1" 200 -
+2025-03-17 12:43:19,347 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:43:19,349 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:43:19] "POST /query HTTP/1.1" 200 -
+2025-03-17 12:43:35,724 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 12:43:35,724 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 12:43:35] "POST /query HTTP/1.1" 200 -
+2025-03-17 13:19:46,265 - werkzeug - INFO - 192.168.10.206 - - [17/Mar/2025 13:19:46] "GET / HTTP/1.1" 200 -
+2025-03-17 13:20:07,449 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 13:20:07,449 - werkzeug - INFO - 192.168.10.206 - - [17/Mar/2025 13:20:07] "POST /query HTTP/1.1" 200 -
+2025-03-17 13:20:41,940 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 13:20:41,940 - werkzeug - INFO - 192.168.10.227 - - [17/Mar/2025 13:20:41] "POST /query HTTP/1.1" 200 -
+2025-03-17 13:29:49,877 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:29:57,826 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:29:57,912 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:29:58,630 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 13:29:58,750 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 13:29:58,750 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 13:29:58,766 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 13:30:22,885 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:30:28,857 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:30:28,883 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:30:29,160 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 13:30:29,188 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 13:30:29,193 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 13:30:29,236 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:30:29] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 13:30:29,631 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:30:29] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 13:30:31,066 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:30:31] "GET /stats HTTP/1.1" 200 -
+2025-03-17 13:36:14,496 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:36:14] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 13:36:14,819 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:36:14] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 13:37:12,232 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:37:12] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:38:39,163 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:38:39] "GET /stats HTTP/1.1" 200 -
+2025-03-17 13:38:56,008 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:38:56] "GET /stats HTTP/1.1" 200 -
+2025-03-17 13:40:29,115 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:40:34,081 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:40:34,109 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:40:34,373 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 13:40:34,411 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 13:40:34,412 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 13:40:34,416 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 13:41:00,779 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:41:10,714 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:41:10,771 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:41:11,284 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 13:41:11,339 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 13:41:11,346 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 13:41:41,298 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:41:41] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 13:41:41,706 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:41:41] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 13:41:53,120 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:41:53] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:41:56,640 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:41:56] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:42:45,243 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:42:50,953 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:42:50,980 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:42:51,395 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 13:42:51,453 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 13:42:51,455 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 13:42:51,460 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 13:43:08,029 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:43:12,998 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:43:13,026 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:43:13,389 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 13:43:13,428 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 13:43:13,433 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 13:44:04,970 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:44:04] "GET /stats HTTP/1.1" 200 -
+2025-03-17 13:44:26,911 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:44:31,668 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:44:31,704 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:44:32,022 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 13:44:32,071 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 13:44:32,071 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 13:44:32,076 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 13:44:49,774 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:44:53,696 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:44:53,725 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:44:54,221 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 13:44:54,262 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 13:44:54,271 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 13:44:54,989 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:44:54] "GET /stats HTTP/1.1" 200 -
+2025-03-17 13:44:55,847 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:44:55] "GET /stats HTTP/1.1" 200 -
+2025-03-17 13:45:36,493 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:45:41,093 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:45:41,126 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:45:49,508 - __main__ - INFO - Created new ChromaDB collection
+2025-03-17 13:45:49,543 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 13:45:49,544 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 13:45:49,548 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 13:46:06,485 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 13:46:11,379 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 13:46:11,414 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 13:46:11,686 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 13:46:11,722 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 13:46:11,729 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 13:46:42,537 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:46:42] "[33mGET /stats HTTP/1.1[0m" 404 -
+2025-03-17 13:47:44,675 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:44] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 13:47:45,092 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:47:45] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 13:48:30,637 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:30] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:48:31,876 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:31] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:48:31,964 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:31] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:48:33,463 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:33] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:48:36,970 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:36] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:48:37,521 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:37] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:48:40,784 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:40] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:48:46,328 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:46] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:48:46,887 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:48:46] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:04,689 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:04] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:18,319 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:18] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:18,540 - pypdf.generic._data_structures - WARNING - Multiple definitions in dictionary at byte 0xe7f37 for key /PageMode
+2025-03-17 13:49:23,625 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:23] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:24,901 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:24] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:28,321 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:28] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:29,494 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:29] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:49:31,692 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:31] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:49:32,333 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:32] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:34,357 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:34] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:35,366 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:35] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:38,233 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:38] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:49:38,356 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:38] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:49:42,825 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:42] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:44,439 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:44] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:45,826 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:45] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:46,872 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:46] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:47,675 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:47] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:49:49,191 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:49:49] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:10,357 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:10] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:14,059 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:14] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:28,158 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:28] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:38,502 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:38] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:40,035 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:40] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:55,890 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:55] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:57,332 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:57] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:57,958 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:57] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:58,797 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:58] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:50:59,707 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:50:59] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:00,654 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:00] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:06,174 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:06] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 13:51:06,440 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:06] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 13:51:08,184 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:08] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:09,107 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:09] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:09,171 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:09] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:10,866 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:10] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:11,859 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:11] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:15,088 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:15] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:17,589 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:17] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:21,807 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:21] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:23,337 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:23] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:29,653 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:29] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:33,690 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:33] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:35,244 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:35] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:36,979 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:36] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:37,701 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:37] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:48,441 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:48] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:50,324 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:50] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:51,362 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:51] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:51:51,442 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:51] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:51:52,764 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:51:52] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:21,618 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:21] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:24,193 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:24] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:53:24,738 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:24] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:25,682 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:25] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:26,331 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:26] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:33,677 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:33] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:34,537 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:34] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:35,443 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:35] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:35,615 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:35] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:53:38,181 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:38] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:53:38,478 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:38] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:53:39,353 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:39] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:40,388 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:40] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:53:43,052 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:43] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:53:45,375 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:45] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:53:47,242 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:47] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:49,017 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:49] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:53:49,899 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:49] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:53,367 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:53] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:54,878 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:54] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:58,087 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:58] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:53:58,159 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:53:58] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:54:00,245 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:54:00] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:54:43,144 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 13:54:43,207 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:54:43] "POST /query HTTP/1.1" 200 -
+2025-03-17 13:55:09,762 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 13:55:09,850 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:09] "POST /query HTTP/1.1" 200 -
+2025-03-17 13:55:29,294 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:29] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:31,204 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:31] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:33,666 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:33] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:55:34,492 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:34] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:35,364 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:35] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:36,356 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:36] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:37,131 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:37] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:43,820 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:43] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:44,439 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:44] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:45,329 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:45] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:46,387 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:46] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:46,575 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:46] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:55:49,393 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:49] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:55:52,377 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:52] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:55:53,387 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:53] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:55:55,092 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:55] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:55:55,142 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:55] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:55:57,015 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:57] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:55:57,616 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:57] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:55:57,875 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:55:57] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:57:43,021 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:43] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:57:47,398 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:47] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:57:49,820 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:49] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:57:50,534 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:50] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:57:50,602 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:50] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:57:52,056 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:52] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:57:52,613 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:52] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:57:53,281 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:53] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:57:53,301 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:53] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:57:53,912 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:53] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:57:54,361 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:54] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:57:55,151 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:55] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:57:55,184 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:55] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:57:55,997 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:55] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:57:56,316 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:57:56] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:58:02,567 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:02] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:58:03,009 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:03] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:58:03,984 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:03] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:58:05,128 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:05] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:58:06,840 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:06] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:58:08,584 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:08] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:58:09,601 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:09] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:58:09,697 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:09] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:58:11,993 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:11] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:58:13,087 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:13] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:58:56,390 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:58:56] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:59:49,526 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:59:49] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:59:52,587 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:59:52] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:59:54,488 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:59:54] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:59:54,753 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:59:54] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 13:59:56,322 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:59:56] "POST /upload HTTP/1.1" 200 -
+2025-03-17 13:59:56,788 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 13:59:56] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:00:00,745 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:00] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:00:04,817 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:04] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:00:05,421 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:05] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:00:05,470 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:05] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:00:09,328 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:09] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:00:10,976 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:10] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:00:11,823 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:11] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:00:18,015 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:18] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:00:18,823 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:18] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:00:19,477 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:19] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:00:20,427 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:00:20] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:35,163 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:35] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:35,197 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:35] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:37,743 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:37] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:38,861 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:38] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:40,547 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:40] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:41,691 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:41] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:44,133 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:44] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:46,301 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:46] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:47,877 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:47] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:49,357 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:49] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:49,927 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:49] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:50,000 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:50] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:50,033 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:50] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:50,697 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:50] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:52,500 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:52] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:53,349 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:53] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:55,654 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:55] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:55,786 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:55] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:01:56,825 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:56] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:01:57,921 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:01:57] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:03,598 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:03] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:04,454 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:04] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:16,080 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:16] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:27,915 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:27] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:29,781 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:29] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:30,930 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:30] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:34,552 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:34] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:36,110 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:36] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:02:38,391 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:38] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:02:50,301 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:50] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:51,006 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:51] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:02:51,079 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:51] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:02:54,776 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:54] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:02:56,280 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:02:56] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:02,644 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:02] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:03,439 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:03] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:05,112 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:05] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:03:05,149 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:05] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:03:06,985 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:06] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:03:07,612 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:07] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:09,232 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:09] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:11,057 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:11] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:03:13,266 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:13] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:03:13,397 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:13] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:03:19,167 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:19] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:20,477 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:20] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:33,810 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:33] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:35,034 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:35] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:36,363 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:36] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:47,727 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:47] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:48,548 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:48] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:49,096 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:49] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:50,026 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:50] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:50,667 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:50] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:51,389 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:51] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:52,201 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:52] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:53,242 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:53] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:53,283 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 14:03:53,286 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:53] "POST /query HTTP/1.1" 200 -
+2025-03-17 14:03:53,860 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:53] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:54,723 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:54] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:55,263 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:55] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:55,815 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:55] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:56,754 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:56] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:57,596 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:57] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:58,169 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:58] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:58,781 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:58] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:59,230 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:59] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:03:59,919 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:03:59] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:00,533 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:00] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:01,386 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:01] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:01,955 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:01] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:02,570 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:02] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:03,019 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:03] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:03,991 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:03] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:04,542 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:04] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:05,106 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:05] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:05,679 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:05] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:06,185 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:06] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:06,735 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:06] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:07,332 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:07] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:08,201 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:08] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:08,973 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:08] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:09,800 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:09] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:10,765 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:10] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:11,472 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:11] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:12,532 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:12] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:13,070 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:13] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:14,054 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:14] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:15,249 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:15] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:16,991 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:16] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:18,433 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:18] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:20,025 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:20] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:21,284 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:21] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:22,341 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:22] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:23,477 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:23] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:24,046 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:24] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:25,163 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:25] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:26,136 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:26] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:26,966 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:26] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:27,783 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:27] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:28,764 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:28] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:29,554 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:29] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:30,904 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:30] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:31,608 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:31] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:32,537 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:32] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:33,310 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:33] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:34,015 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:34] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:34,853 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:34] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:35,571 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:35] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:36,268 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:36] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:36,997 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:36] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:37,771 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:37] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:38,635 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:38] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:39,527 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:39] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:40,405 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:40] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:04:42,810 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:04:42] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:05:32,428 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:05:32] "POST /upload HTTP/1.1" 200 -
+2025-03-17 14:08:05,026 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:08:05] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:08:06,034 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:08:06] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:08:06,754 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:08:06] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:08:07,461 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:08:07] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:08:08,144 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:08:08] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:08:10,724 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:08:10] "GET /admin/upload HTTP/1.1" 200 -
+2025-03-17 14:08:11,077 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:08:11] "GET /supported_formats HTTP/1.1" 200 -
+2025-03-17 14:09:29,074 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:09:29] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:10:12,656 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:10:12] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:11:41,014 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:11:41] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-17 14:30:19,252 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 14:30:22,990 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 14:30:23,011 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 14:30:23,227 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 14:30:23,258 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 14:30:23,259 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 14:30:23,266 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 14:30:35,200 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 14:30:40,404 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 14:30:40,423 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 14:30:40,616 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 14:30:40,637 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 14:30:40,640 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 14:31:45,880 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:31:45] "GET / HTTP/1.1" 200 -
+2025-03-17 14:31:45,946 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:31:45] "[33mGET /Green%20Energy%20Logo%20-%20Black.svg HTTP/1.1[0m" 404 -
+2025-03-17 14:31:54,978 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 14:31:54,983 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:31:54] "POST /query HTTP/1.1" 200 -
+2025-03-17 14:32:01,983 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:32:01] "GET / HTTP/1.1" 200 -
+2025-03-17 14:32:02,088 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:32:02] "[33mGET /Green%20Energy%20Logo%20-%20Black.svg HTTP/1.1[0m" 404 -
+2025-03-17 14:32:17,061 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 14:32:17,065 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:32:17] "POST /query HTTP/1.1" 200 -
+2025-03-17 14:34:14,279 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 14:34:18,085 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 14:34:18,121 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 14:34:18,415 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 14:34:18,448 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.227:5000
+2025-03-17 14:34:18,449 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 14:34:18,455 - werkzeug - INFO -  * Restarting with stat
+2025-03-17 14:34:32,329 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-17 14:34:36,370 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-17 14:34:36,391 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-17 14:34:36,610 - __main__ - INFO - Using existing ChromaDB collection
+2025-03-17 14:34:36,636 - werkzeug - WARNING -  * Debugger is active!
+2025-03-17 14:34:36,639 - werkzeug - INFO -  * Debugger PIN: 102-587-038
+2025-03-17 14:34:36,676 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:34:36] "GET / HTTP/1.1" 200 -
+2025-03-17 14:34:36,753 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:34:36] "[33mGET /Green%20Energy%20Logo%20-%20Black.svg HTTP/1.1[0m" 404 -
+2025-03-17 14:34:46,605 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 14:34:46,763 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:34:46] "POST /query HTTP/1.1" 200 -
+2025-03-17 14:35:08,358 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 14:35:08,360 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:35:08] "POST /query HTTP/1.1" 200 -
+2025-03-17 14:35:22,358 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 14:35:22,359 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:35:22] "POST /query HTTP/1.1" 200 -
+2025-03-17 14:35:51,412 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:35:51] "GET / HTTP/1.1" 200 -
+2025-03-17 14:35:51,502 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:35:51] "[33mGET /Green%20Energy%20Logo%20-%20Black.svg HTTP/1.1[0m" 404 -
+2025-03-17 14:36:08,060 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:36:08] "GET / HTTP/1.1" 200 -
+2025-03-17 14:36:08,104 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:36:08] "[33mGET /Green%20Energy%20Logo%20-%20Black.svg HTTP/1.1[0m" 404 -
+2025-03-17 14:36:08,175 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2025 14:36:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
